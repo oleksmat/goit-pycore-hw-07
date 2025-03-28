@@ -1,4 +1,4 @@
-from src.bot_packages.state import AddressBook
+from ..state import AddressBook
 
 from .helpers.register_command import register_command
 from .helpers.input_error import input_error

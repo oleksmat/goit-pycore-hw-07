@@ -1,7 +1,7 @@
 from collections.abc import Callable
 from functools import wraps
 
-from src.bot_packages.state import AddressBook
+from ...state import AddressBook
 
 commands: list[Callable[[AddressBook, list[str]], str]] = []
 
