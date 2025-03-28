@@ -8,3 +8,7 @@ from .help import help_command
 from .list import list_command
 from .update import update_command
 from .view import view_command
+
+from .birthday_get import *
+from .birthday_set import *
+from .birthday_next import *
